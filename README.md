@@ -1,11 +1,14 @@
 
-# 这个项目是我从cnode follow 下来的，对node升级，重构了些地方
+# Angualr-BBS-backend
 
-# 开发步骤
+this is a nodejs+ express+ redis+ MongoDB project,it is the backend of  my angualr project https://github.com/hucheng91/Angualr-BBS,
+I follow from https://github.com/cnodejs/nodeclub/,and update a lot，
 
- 1. 安装nodejs
- 2. 安装 redis
- 3. 安装 MongoDB
+
+## dev
+ 1. install nodejs
+ 2. http redis
+ 3. Ihttp MongoDB
  4. npm install
  5. node app.js
 
@@ -13,3 +16,4 @@
 ## License
 
 MIT
+

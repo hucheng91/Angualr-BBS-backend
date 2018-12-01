@@ -98,7 +98,7 @@ var config = {
   // 7牛的access信息，用于文件上传
   qn_access: {
     accessKey: '',
-    secretKey: '',
+    secretKey: 'z-OwieO4v2dXACxnHHsAqI8eQBv1GJfYZn3q5KXl',
     bucket: 'angularbbstest',
     origin: 'http://p0c0q9cxy.bkt.clouddn.com',
     // 如果vps在国外，请使用 http://up.qiniug.com/ ，这是七牛的国际节点

@@ -83,7 +83,7 @@ var config = {
 
   // github 登陆的配置
   GITHUB_OAUTH: {
-    clientID: '',
+    clientID: '86a8ffb61ac031813743',
     clientSecret: '',
     callbackURL: 'http://localhost:4201/api/auth/github/callback'
   },
@@ -97,8 +97,8 @@ var config = {
 
   // 7牛的access信息，用于文件上传
   qn_access: {
-    accessKey: '',
-    secretKey: '',
+    accessKey: 'Q3QeikkB_7FjaJJYOMx5-ByBysXbCAav0lCwDpc8',
+    secretKey: 'z-OwieO4v2dXACxnHHsAqI8eQBv1GJfYZn3q5KXl',
     bucket: 'angularbbstest',
     origin: 'http://p0c0q9cxy.bkt.clouddn.com',
     // 如果vps在国外，请使用 http://up.qiniug.com/ ，这是七牛的国际节点

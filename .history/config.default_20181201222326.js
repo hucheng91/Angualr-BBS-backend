@@ -34,7 +34,7 @@ var config = {
   cnzz_tracker_id: '',
 
   // mongodb 配置
-  db: '',
+  db: 'mongodb://127.0.0.1/node_club_dev',
 
   // redis 配置，默认是本地
   redis_host: '127.0.0.1',
@@ -42,8 +42,8 @@ var config = {
   redis_db: 0,
   redis_password: '',
 
-  session_secret: '', // 务必修改
-  auth_cookie_name: '',
+  session_secret: 'angular_dev_club_secret', // 务必修改
+  auth_cookie_name: 'angular_dev_club',
 
   // 程序运行的端口
   port: 8080,
@@ -68,8 +68,8 @@ var config = {
     host: 'smtp.126.com',
     port: 25,
     auth: {
-      user: '',
-      pass: ''
+      user: 'angulardevclub@126.com',
+      pass: 'angular123'
     },
     ignoreTLS: true,
   },
@@ -83,8 +83,8 @@ var config = {
 
   // github 登陆的配置
   GITHUB_OAUTH: {
-    clientID: '',
-    clientSecret: '',
+    clientID: '86a8ffb61ac031813743',
+    clientSecret: '17f995a38d8ce9846587163a85d18a44dbb05cdc',
     callbackURL: 'http://localhost:4201/api/auth/github/callback'
   },
   // 是否允许直接注册（否则只能走 github 的方式）
@@ -97,8 +97,8 @@ var config = {
 
   // 7牛的access信息，用于文件上传
   qn_access: {
-    accessKey: '',
-    secretKey: '',
+    accessKey: 'Q3QeikkB_7FjaJJYOMx5-ByBysXbCAav0lCwDpc8',
+    secretKey: 'z-OwieO4v2dXACxnHHsAqI8eQBv1GJfYZn3q5KXl',
     bucket: 'angularbbstest',
     origin: 'http://p0c0q9cxy.bkt.clouddn.com',
     // 如果vps在国外，请使用 http://up.qiniug.com/ ，这是七牛的国际节点
